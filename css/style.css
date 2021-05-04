@@ -21,12 +21,65 @@ Author: Christopher Castig | @castig
 }
 
 
+
+
 /*----------------------------------------------------------------------------- 
 02=LAYOUT  
 -----------------------------------------------------------------------------*/
+body {
+    background: Silver;
+    font-family: 'Lato', sans-serif;
+}
+#container {
+    background: Silver;
+    width: 1000px;
+    margin: 0 auto 0 auto;
+}
 
+#header {
+    padding: 25px 25px 0px 0px;
+    
+}
+
+#main {
+    padding: 25px;
+    float: left;
+    width: 650px;
+    background: white;
+}
+
+#sidebar {
+    margin-left: 5px; 
+    padding: 25px;
+    float: left;
+    width: 300px;
+    background: white;
+}
 /*----------------------------------------------------------------------------- 
 03=MAIN  
 -----------------------------------------------------------------------------*/
+h1 {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+h4 {
+    margin-top: 0px;
+}
 
+p.horizontalSpace {
+    border-top: 2px solid Silver;
+    color: Silver;
+}
 
+a.aFooter {
+    text-decoration: none;
+    color: Orange;
+}
+
+li {
+    color: Orange;
+}
+
+p.Quote {
+    font-style: italic;
+}
